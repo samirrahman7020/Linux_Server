@@ -82,6 +82,17 @@ sudo ufw status verbose
 > [!WARNING]
 > Although this ensures security by limiting which ports can be accessed, ensure any other services that require additional ports are configured. Furthermore, be cautious with the commands used which could lead to self-lockout hazards.
 
+2.5 Port Inspection
+
+Using the following command, I was able to identify any open ports. Unnecessary services can be disabled to reduce the risk of attackers.
+
+- [x] Check open ports using socket statistics:
+```bash
+sudo ss -tulpn
+```
+> [!Note] This command was used over netstat as it is simpler and faster
+
+
 
 
 
