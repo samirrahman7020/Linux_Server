@@ -91,8 +91,57 @@ Using the following command, I was able to identify any open ports. Unnecessary 
 sudo ss -tulpn
 ```
 > [!Note] This command was used over netstat as it is simpler and faster
+ - [x] Disable a service using the relevant command
+```bash
+   sudo systemctl disable --now service_name
+```
 
+2.6 Login Monitoring + Intrusion Prevention
 
+- [x] List active users and failed login attempts using commands:
+```bash
+who
+sudo lastb
+```
+
+Using this info, Fail2Ban was installed to help prevent against repeated failed attempts.
+ - [x] Installation and Status:
+```bash
+sudo apt install fail2ban
+sudo fail2ban-client status sshd
+```
+> [!TIP]
+> Fail2Ban is a very useful tool to have on a server. It monitors server log files and automatically blocks suspicious IP addresses after repeated failed login attempts using firewall rules. This helps prevent attackers from continuously attempting to gain unauthorised access to the server.
+
+2.7 Automatic Security Updates
+
+- [x] Install unattended upgrades:
+```bash
+sudo apt install unattended-upgrades
+```
+
+This ensures security updates are automatically installed, ensuring the server is up to date.
+
+2.8 System and Kernel Maintenance
+
+A custom alias was created called "package_update" it runs the commands below. This was done to simplify package maintenance.
+
+- [x] Create a custom alias to simplify the process:
+```bash
+sudo apt update
+sudo apt upgrade
+```
+- [x] Update the kernel and reboot:
+* Firstly check the kernel version
+```bash
+   uname -r
+```
+* Install the updates and perform a reboot
+```bash
+sudo apt update && sudo apt full-upgrade
+sudo reboot
+```
+You can then verify if the new kernel version has been installed using ``` uname -r ``` again.
 
 
 
