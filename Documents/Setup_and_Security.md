@@ -1,4 +1,4 @@
-### <h1 style="color: #3498db;">Linux Server Project Overview</h1>
+### <h1 style="color: #3498db;">Linux Server -- Setup and Security</h1>
 > [!IMPORTANT]
 > * This file will be used to document the changes, projects and features that are present in this server.
 
