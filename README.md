@@ -1,4 +1,4 @@
-<h1> Linux Home Server Project </h1>
+<h1> 🖥️ Linux Server Project </h1>
 
 ## 📌 Summary
 This project involves building and configuring a Linux server using Ubuntu Server, with the aim of developing practical skills in Linux system administration, networking and server security. 
