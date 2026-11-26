@@ -13,6 +13,8 @@
  - [x] Package Updates : Updated and Upgraded packages within my Server by creating a custom alias. This reduced the time to update packages as only one command is now required
  - [x] SSH Installation : Installed the OpenSSH (sshd) server, allowing remote access.
 
+![Server Info](./Images/Setup_and_Security/server_info.png "Server Info")
+
 ## 2. 24/11/2026
 
 # Security
