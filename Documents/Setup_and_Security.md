@@ -83,6 +83,7 @@ sudo ufw status verbose
 ```
 > [!WARNING]
 > Although this ensures security by limiting which ports can be accessed, ensure any other services that require additional ports are configured. Furthermore, be cautious with the commands used which could lead to self-lockout hazards.
+![UFW_Status](../Images/Setup_and_Security/ufw_status.png)
 
 2.5 Port Inspection
 
