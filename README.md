@@ -53,8 +53,8 @@ Throughout this project, I have been developing my understanding of Linux, serve
 > ```bash
 > sudo netplay apply
 > ```
->
-> ## 📚 What I Learned
+
+## 📚 What I Learned
 > [!TIP]
 > ### 20/11/2026
 > How Ubuntu Server manages network configuration using NetPlan
