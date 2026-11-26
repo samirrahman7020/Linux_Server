@@ -23,5 +23,41 @@ Throughout this project, I have been developing my understanding of Linux, serve
 > | 🚨 Fail2Ban | Installed Fail2Ban to help protect against repeated failed login attempts and to block suspicious IP's |
 > | 🔄 Automatic Updates and Kernel Maintenance | Enabled unattended security updates to keep the server protected and created custom aliases to streamline Linux processes |
 
-
+## ⚠️ Challenges
+>[!WARNING]
+> ### 20/11/2026
+> The server currently uses WIFI due to no access to an ethernet port. However, when trying to connect to the wireless interface, several issues occurred:
+> * The wireless interface wasn't recognised
+> * The Netplan configuration was incorrect
+>
+> Fixing this required me to:
+> - [x] Display all network interfaces and locate the wireless interface:
+> ```bash
+> ip link show  
+> ```
+> - [x] Locate the correct configuration file and edit it:
+> ```bash
+> cd /etc/netplan/file_path.yaml
+> ls
+> ```
+> - [x] Change the permissions of the configuration file to ensure security:
+> ```bash
+> sudo chmod 600 "file_path.yaml"
+> ```
+> - [x] Use the new configuration and check its status:
+> ```bash
+> sudo netplan generate
+> sudo netplan try
+> ```
+> If there are no errors run:
+> ```bash
+> sudo netplay apply
+> ```
+>
+> ## 📚 What I Learned
+> [!TIP]
+> ### 20/11/2026
+> How Ubuntu Server manages network configuration using NetPlan
+> How to configure a wireless interface
+> How to troubleshoot network connectivity using Linux Commands
 
