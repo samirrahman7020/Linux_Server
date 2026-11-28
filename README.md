@@ -11,6 +11,7 @@ Throughout this project, I have been developing my understanding of Linux, serve
 
 >[!IMPORTANT]
 > This project is currently in progress and will be updated with further additions and technologies.
+> To view more details about this project, visit the ``` Documents ``` directory
 
 ## 🛠️ Features 
 > [!NOTE]
