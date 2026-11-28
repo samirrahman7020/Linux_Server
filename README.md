@@ -11,7 +11,11 @@ Throughout this project, I have been developing my understanding of Linux, serve
 
 >[!IMPORTANT]
 > This project is currently in progress and will be updated with further additions and technologies.
-> To view more details about this project, visit the ``` Documents ``` directory
+> To view more details about this project, visit the following documents:
+> <ul>
+  [Setup and Security](/Documents/Setup_and_Security.md)
+</ul>
+
 
 ## 🛠️ Features 
 > [!NOTE]
@@ -61,4 +65,13 @@ Throughout this project, I have been developing my understanding of Linux, serve
 >  - How Ubuntu Server manages network configuration using NetPlan
 >  - How to configure a wireless interface
 > - How to troubleshoot network connectivity using Linux Commands
+
+## 🎯 Next Steps and Improvements
+ * This project can be improved by:
+   - [ ] Adding an ethernet connection
+   - [ ] Creating scripts to monitor system performance and usage
+
+ * The **Next Steps** of this project include:
+   - [ ] Configuring Network Infrastructure. Some ideas include creating a NFS and restricting access to trusted devices.
+  
 
